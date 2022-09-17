@@ -1,0 +1,38 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, nav, main, footer {
+margin: 1.25rem auto;
+max-width: 760px;
+}
+
+header, footer {
+background-color: rgb(104, 104, 128);
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header {
+text-align: left;
+padding: 1.5rem;
+height: 200px;
+
+}
+
+header img {
+  
+  
+    margin: 10px;
+    border: 1px solid #000;
+    width: 100px;
+
+}
+
+footer {
+    padding: 1rem;
+
+}
